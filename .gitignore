@@ -1,0 +1,5 @@
+# signing keys never go in the repo
+*.keystore
+*.jks
+# local build output (the published APK lives in phone/)
+android/camlink/build/
