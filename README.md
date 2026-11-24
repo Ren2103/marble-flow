@@ -1,9 +1,9 @@
-﻿# Marble Flow
+# Marble Flow
 
 A procedural, seamlessly looping liquid-marble animation you can stir with your mouse, or with
 people walking past a projection.
 
-**â–¶ Open it: https://ren2103.github.io/marble-flow/**
+**▶ Open it: https://ren2103.github.io/marble-flow/**
 
 Everything runs in the browser (WebGL2). No install, no server, no tracking.
 
@@ -39,11 +39,11 @@ tracking **on the phone**, and sends the results to the page over the USB cable.
 - Uses the phone's hardware face detector (when present) as a "someone is here" signal.
 
 **Setup (Windows):**
-1. On the phone: Settings â†’ About phone â†’ tap *Build number* 7Ã— â†’ Developer options â†’ turn on **USB debugging**.
+1. On the phone: Settings → About phone → tap *Build number* 7× → Developer options → turn on **USB debugging**.
 2. Install adb once: `winget install Google.PlatformTools`
 3. Plug the phone in, tap **Allow** on the phone, then run [`phone/start-phone-link.ps1`](phone/start-phone-link.ps1).
    It installs the app ([`phone/marble-camlink.apk`](phone/marble-camlink.apk)), connects it over USB, and opens it.
-4. In the page's Camera menu choose **ðŸ“± Phone app over USB (Marble CamLink)**.
+4. In the page's Camera menu choose **📱 Phone app over USB (Marble CamLink)**.
 
 When the page asks to **access devices on your local network**, allow it. That's how it reaches the phone link on `127.0.0.1`.
 Mount the phone in **landscape**. Tap the phone screen to switch lens, long-press to re-meter.
